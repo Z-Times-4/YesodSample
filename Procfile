@@ -1,1 +1,1 @@
-web: ./dist/build/first-heroku/first-heroku production -p $PORT
+web: ./dist/build/YesodSample/YesodSample production -p $PORT
