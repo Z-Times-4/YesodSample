@@ -79,7 +79,7 @@ library
                  , vector
                  , time
 
-executable         turtorial
+executable         yesodsample
     if flag(library-only)
         Buildable: False
 
