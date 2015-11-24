@@ -10,8 +10,8 @@ Default: &defaults
   copyright: Insert copyright statement here
 
 Production:
-  approot: "http://example.com/app/sample"
   <<: *defaults
+  approot: "https://yesodsample.herokuapp.com"
 
 # Optional values with the following production defaults.
 # In development, they default to the inverse.
