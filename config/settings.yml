@@ -1,26 +1,6 @@
-# Values formatted like "_env:ENV_VAR_NAME:default_value" can be overridden by the specified environment variable.
-# See https://github.com/yesodweb/yesod/wiki/Configuration#overriding-configuration-values-with-environment-variables
-
-Default: &defaults
-  static-dir:     "_env:STATIC_DIR:static"
-  host:           "0.0.0.0" # any IPv4 host
-  port:           3000
-  approot:        "http://0.0.0.0:3000"
-  ip-from-header: "_env:IP_FROM_HEADER:false"
-  copyright: Insert copyright statement here
-
-Production:
-  <<: *defaults
-  approot: "https://yesodsample.herokuapp.com"
-
-# Optional values with the following production defaults.
-# In development, they default to the inverse.
-#
-# development: false
-# detailed-logging: false
-# should-log-all: false
-# reload-templates: false
-# mutable-static: false
-# skip-combining: false
-
-#analytics: UA-YOURCODE
+static-dir:     "_env:STATIC_DIR:static"
+host:           "0.0.0.0" # any IPv4 host
+port:           3000
+approot:        "http://0.0.0.0:3000"
+ip-from-header: "_env:IP_FROM_HEADER:false"
+copyright: Insert copyright statement here
